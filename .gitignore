@@ -1,7 +1,13 @@
+# 忽略所有内容
 *
+
+# 保留 .gitignore 本身
 !.gitignore
-# !UniGraspTransformer/
-# !UniGraspTransformer/**/*
+
+# 保留文件夹自身（不包含内部文件）
 !Assets/
 !IsaacGym4/
 
+# 忽略 Assets 和 IsaacGym4 中的所有内容
+Assets/**
+IsaacGym4/**
