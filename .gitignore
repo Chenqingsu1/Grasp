@@ -1,13 +1,17 @@
-# 忽略所有内容
+# 忽略所有文件
 *
 
-# 保留 .gitignore 本身
+# 保留 .gitignore 文件本身
 !.gitignore
 
-# 保留文件夹自身（不包含内部文件）
+# 保留目录结构
 !Assets/
 !IsaacGym4/
 
-# 忽略 Assets 和 IsaacGym4 中的所有内容
+# 忽略目录中的所有内容
 Assets/**
 IsaacGym4/**
+
+# 显式保留 .gitkeep 文件
+!Assets/.gitkeep
+!IsaacGym4/.gitkeep
