@@ -1,5 +1,7 @@
 *
 !.gitignore
-!UniGraspTransformer/
-!UniGraspTransformer/**/*
+# !UniGraspTransformer/
+# !UniGraspTransformer/**/*
+!Assets/
+!IsaacGym4/
 
